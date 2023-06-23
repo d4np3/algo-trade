@@ -14,8 +14,6 @@ Three algorithms using SVC with tuned training period and window sizes.
 
 I then compared two different classifiers on the best performing SVC model.
 
-Here are the results.
-
 ## Results
 
 * __*1 - Baseline Algorithm Performance Establishment*__
@@ -75,12 +73,11 @@ Here are the results.
 <p>
 <img src="img/log_plot.png"> <br />
 </p>
-
 <br />
 
 ## Conclusions
 
-In the limited testing pool above, the second SVC model tuning the training period alone returned the best results. 
+In the limited testing pool above, the second SVC model tuning the training period alone returned the best results. Returns never dropped below 0.8 and mostly was above 1. It achieved the highest return in both number and over time.
 
 The shorter windows didn't provide a better outcome in these examples. 
 
